@@ -1,0 +1,32 @@
+ion-toolbar {
+  --padding-end: 15px;
+  --padding-top: 20px;
+  --padding-bottom: 10px;
+  --border-width: 0px !important;
+  .menu {
+    --border-width: 1px;
+    --border-radius: 10px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+ion-content {
+  --background: url("/../assets/image/image.png") 0 0/100% 100% no-repeat;
+  display: flex !important;
+  .add-comment {
+    position: fixed;
+    bottom: 30px;
+    display: flex;
+    width: calc(100% - 40px);
+    .comment {
+      height: 60px;
+      flex-grow: 1;
+    }
+    .share {
+      width: 60px;
+      height: 60px;
+      margin-left: 10px;
+    }
+  }
+}
